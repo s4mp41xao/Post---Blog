@@ -7,9 +7,17 @@ body {
 }
 
 .main-container {
-  max-width: 1198px;
+  display: block;
+  width: 100vw;
   margin: 0 auto;
+}
+
+.container {
+  display: block;
+  float: left;
   padding: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 header {
@@ -17,22 +25,49 @@ header {
   float: left;
   padding: 20px;
   width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #000000;
 }
 
 h1 {
   font-size: 2.4rem;
-  color: ;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 h3 {
-  font-size: ;
+  padding-top: 10px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  col
+}
+
+ol {
+  margin-left: 30px;
+}
+
+ol li {
+  font-size: 1.4rem;
+  color: #454545;
 }
 
 section {
+  background-color: #f1f1f1;
   font-size: 1.5rem; /* 15px */
   display: block;
   float: left;
@@ -46,6 +81,21 @@ section nav {
   width: 30%;
 }
 
+nav li {
+  background-color: #dbdbdbc2;
+  margin: 1px 20px 1px 0px;
+  padding: 10px;
+}
+
+nav li:hover {
+  background-color: #b4b4b48e;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
 section article {
   display: block;
   float: left;
@@ -54,9 +104,18 @@ section article {
 
 footer {
   background-color: #777777;
-  color: #ffffff;
   display: block;
   float: left;
   padding: 20px;
   width: 100%;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+footer small {
+  font-size: 80%;
+  display: block;
 }
