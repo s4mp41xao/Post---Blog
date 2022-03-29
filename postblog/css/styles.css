@@ -18,6 +18,7 @@ body {
   padding: 20px;
   width: 100%;
   margin: 0 auto;
+  max-width: 1198px;
 }
 
 header {
@@ -57,6 +58,13 @@ p {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tenho-interesse {
+  width: 100%;
+  background-color: #cacaca;
 }
 
 ol {
@@ -120,12 +128,4 @@ footer p {
 footer small {
   font-size: 80%;
   display: block;
-}
-
-a {
-  visibility: hidden !important;
-}
-
-.cog-branding {
-  visibility: hidden !important;
 }
