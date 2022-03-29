@@ -54,7 +54,9 @@ h4 {
 p {
   margin-bottom: 10px;
   line-height: 1.4;
-  col
+}
+
+img {
 }
 
 ol {
@@ -110,7 +112,7 @@ footer {
   width: 100%;
 }
 
-footer p{
+footer p {
   color: #ffffff;
   font-size: 1.4rem;
 }
@@ -118,4 +120,12 @@ footer p{
 footer small {
   font-size: 80%;
   display: block;
+}
+
+a {
+  visibility: hidden !important;
+}
+
+.cog-branding {
+  visibility: hidden !important;
 }
